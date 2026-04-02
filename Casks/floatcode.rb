@@ -1,6 +1,6 @@
 cask "floatcode" do
-  version "0.6.0-alpha"
-  sha256 "666b2824e6af33816befbff862f21ea2d00f5cc1a627be53dee731b6e96d4a7f"
+  version "0.6.1-alpha"
+  sha256 "2cc062def6464101c38147fb9147dd68d1ca9aa4eb0b17c05f197e7e836fb6f2"
 
   url "https://storage.googleapis.com/floatcode.firebasestorage.app/releases/FloatCode.dmg"
   name "FloatCode"
