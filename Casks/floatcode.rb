@@ -1,8 +1,8 @@
 cask "floatcode" do
-  version "0.9.1-alpha"
-  sha256 "c52dd522c1b513e5e5eb94e82a41e9a23199b525117663777b608719d2e0559b"
+  version "0.9.2-alpha"
+  sha256 "af017f0fa13d7f731492d52888b57af80f6396b31497aeb08a6c970cc4756967"
 
-  url "https://github.com/mapelabs/homebrew-floatcode/releases/download/v0.9.1-alpha/FloatCode_0.9.1-alpha_aarch64.dmg"
+  url "https://github.com/mapelabs/homebrew-floatcode/releases/download/v0.9.2-alpha/FloatCode_0.9.2-alpha_aarch64.dmg"
   name "FloatCode"
   desc "Open-source AI-native terminal emulator"
   homepage "https://floatcode.app"
