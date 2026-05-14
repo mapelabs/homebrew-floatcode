@@ -1,10 +1,10 @@
 cask "floatcode" do
-  version "0.8.3-alpha"
-  sha256 "2c7bf9bab866767ea492fda2d502b00aaf5c369d51ee10e7139d01c39f6706ee"
+  version "0.7.3"
+  sha256 "ce676a3dbd36d20552b47528e02012ac55d66710525899bcdc3c27568bc7cd37"
 
-  url "https://storage.googleapis.com/floatcode.firebasestorage.app/releases/FloatCode.dmg"
+  url "https://github.com/mapelabs/homebrew-floatcode/releases/download/v0.7.3/FloatCode_0.7.3_aarch64.dmg"
   name "FloatCode"
-  desc "Floating AI terminal that stays out of your way"
+  desc "Open-source AI-native terminal emulator"
   homepage "https://floatcode.app"
 
   app "FloatCode.app"
