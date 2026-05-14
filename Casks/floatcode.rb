@@ -1,8 +1,8 @@
 cask "floatcode" do
-  version "0.7.3"
-  sha256 "ce676a3dbd36d20552b47528e02012ac55d66710525899bcdc3c27568bc7cd37"
+  version "0.9.1-alpha"
+  sha256 "c52dd522c1b513e5e5eb94e82a41e9a23199b525117663777b608719d2e0559b"
 
-  url "https://github.com/mapelabs/homebrew-floatcode/releases/download/v0.7.3/FloatCode_0.7.3_aarch64.dmg"
+  url "https://github.com/mapelabs/homebrew-floatcode/releases/download/v0.9.1-alpha/FloatCode_0.9.1-alpha_aarch64.dmg"
   name "FloatCode"
   desc "Open-source AI-native terminal emulator"
   homepage "https://floatcode.app"
@@ -10,6 +10,7 @@ cask "floatcode" do
   app "FloatCode.app"
 
   postflight do
+    # Remove quarantine attribute so macOS allows the unsigned app on first launch
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/FloatCode.app"],
                    sudo: false
